@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>详情页-博客</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <script src="http://g.tbcdn.cn/mtb/lib-flexible/0.3.4/??flexible_css.js,flexible.js"></script>
+    <style>
+        .blog_box {
+            padding: 0 0.5rem 1rem;
+        }
+
+        .u_head_b {
+            background: #eee;
+            float: left;
+            width: 40px;
+            height: 40px;
+            overflow: hidden;
+            border-radius: 50%;
+        }
+
+        .u_info {
+            height: 40px;
+            float: left;
+            padding-top: 5px;
+        }
+
+        .u_head {
+            max-width: 100%;
+            max-height: 100%;
+        }
+
+        .blog_title {
+            text-align: center;
+            font-size: 18px;
+            font-weight: 600;
+            margin: 15px 0;
+        }
+
+        .blog_con_box {
+            padding: 20px 0;
+        }
+        .blog_con_box p{
+            font-size: 16px;
+            line-height: 1.5;
+        }
+        .time{
+            color: #aaa;
+        }
+    </style>
+</head>
+<body>
+<div class="page">
+    <header class="head">
+        <ul class="nav_box">
+            <li><a href="javascript:;">主页</a></li>
+            <li><a href="javascript:;">登录</a></li>
+            <li><a href="javascript:;">注册</a></li>
+        </ul>
+    </header>
+    <div class="content">
+        <div class="blog_box">
+            <div class="title_box">
+                <h1 class="blog_title">初阅vue仿豆瓣源码</h1>
+                <div class="b_u_b clearfix">
+                    <div class="u_head_b">
+                        <img src="./images/xgs.jpeg" alt="" class="u_head">
+                    </div>
+                    <div class="u_info">
+                        <p>小怪兽</p>
+                        <p class="time">2017-10-25 23:25:12</p>
+                    </div>
+                </div>
+            </div>
+            <div class="blog_con_box">
+                <p class="" style="">一个大型工程，vuex应该是要分模块管理的，否则方法和状态多了会混乱，难以管理。</p>
+                <p>路由有命名空间，一个路径可以对应显示多个不同的路由组件。</p>
+                <p>今天天气很冷，心情很一般。</p>
+                <p></p>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

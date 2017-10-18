@@ -1,0 +1,26 @@
+
+.head {
+    height: 50px;
+    background: #393d49;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+.nav_box {
+    height: 100%;
+    padding: 0 1rem;
+}
+
+.nav_box li {
+    display: inline-block;
+    vertical-align: top;
+    line-height: 50px;
+    height: 100%;
+}
+
+.nav_box li a {
+    color: #fff;
+    display: inline-block;
+    padding: 0 0.5rem;
+    font-size: 14px;
+}
